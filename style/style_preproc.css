@@ -1,0 +1,584 @@
+@font-face {
+  font-family: 'gilroyregular';
+  src: url("../fonts/Gilroy_regular/gilroy-regular-webfont.eot");
+  src: url("../fonts/Gilroy_regular/gilroy-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy_regular/gilroy-regular-webfont.woff2") format("woff2"), url("../fonts/Gilroy_regular/gilroy-regular-webfont.woff") format("woff"), url("../fonts/Gilroy_regular/gilroy-regular-webfont.ttf") format("truetype"), url("../fonts/Gilroy_regular/gilroy-regular-webfont.svg#gilroyregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'gilroymedium';
+  src: url("../fonts/Gilroy_medium/gilroy-medium-webfont.eot");
+  src: url("../fonts/Gilroy_medium/gilroy-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy_medium/gilroy-medium-webfont.woff2") format("woff2"), url("../fonts/Gilroy_medium/gilroy-medium-webfont.woff") format("woff"), url("../fonts/Gilroy_medium/gilroy-medium-webfont.ttf") format("truetype"), url("../fonts/Gilroy_medium/gilroy-medium-webfont.svg#gilroymedium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'gilroybold';
+  src: url("../fonts/Gilroy_bold/gilroy-bold-webfont.eot");
+  src: url("../fonts/Gilroy_bold/gilroy-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy_bold/gilroy-bold-webfont.woff2") format("woff2"), url("../fonts/Gilroy_bold/gilroy-bold-webfont.woff") format("woff"), url("../fonts/Gilroy_bold/gilroy-bold-webfont.ttf") format("truetype"), url("../fonts/Gilroy_bold/gilroy-bold-webfont.svg#gilroybold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'gilroysemibold';
+  src: url("../fonts/Gilroy_semibold/gilroy-semibold-webfont.eot");
+  src: url("../fonts/Gilroy_semibold/gilroy-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy_semibold/gilroy-semibold-webfont.woff2") format("woff2"), url("../fonts/Gilroy_semibold/gilroy-semibold-webfont.woff") format("woff"), url("../fonts/Gilroy_semibold/gilroy-semibold-webfont.ttf") format("truetype"), url("../fonts/Gilroy_semibold/gilroy-semibold-webfont.svg#gilroysemibold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'interregular';
+  src: url("../fonts/Inter_regular/inter-regular-webfont.eot");
+  src: url("../fonts/Inter_regular/inter-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Inter_regular/inter-regular-webfont.woff2") format("woff2"), url("../fonts/Inter_regular/inter-regular-webfont.woff") format("woff"), url("../fonts/Inter_regular/inter-regular-webfont.ttf") format("truetype"), url("../fonts/Inter_regular/inter-regular-webfont.svg#interregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'intermedium';
+  src: url("../fonts/Inter_medium/inter-medium-webfont.eot");
+  src: url("../fonts/Inter_medium/inter-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Inter_medium/inter-medium-webfont.woff2") format("woff2"), url("../fonts/Inter_medium/inter-medium-webfont.woff") format("woff"), url("../fonts/Inter_medium/inter-medium-webfont.ttf") format("truetype"), url("../fonts/Inter_medium/inter-medium-webfont.svg#intermedium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'interbold';
+  src: url("../fonts/Inter_bold/inter-bold-webfont.eot");
+  src: url("../fonts/Inter_bold/inter-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Inter_bold/inter-bold-webfont.woff2") format("woff2"), url("../fonts/Inter_bold/inter-bold-webfont.woff") format("woff"), url("../fonts/Inter_bold/inter-bold-webfont.ttf") format("truetype"), url("../fonts/Inter_bold/inter-bold-webfont.svg#interbold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'intersemi_bold';
+  src: url("../fonts/Inter_semibold/inter-semibold-webfont.eot");
+  src: url("../fonts/Inter_semibold/inter-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Inter_semibold/inter-semibold-webfont.woff2") format("woff2"), url("../fonts/Inter_semibold/inter-semibold-webfont.woff") format("woff"), url("../fonts/Inter_semibold/inter-semibold-webfont.ttf") format("truetype"), url("../fonts/Inter_semibold/inter-semibold-webfont.svg#intersemi_bold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'dm_sansregular';
+  src: url("../fonts/Dm_sans_regular/dmsans-regular-webfont.eot");
+  src: url("../fonts/Dm_sans_regular/dmsans-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Dm_sans_regular/dmsans-regular-webfont.woff2") format("woff2"), url("../fonts/Dm_sans_regular/dmsans-regular-webfont.woff") format("woff"), url("../fonts/Dm_sans_regular/dmsans-regular-webfont.ttf") format("truetype"), url("../fonts/Dm_sans_regular/dmsans-regular-webfont.svg#dm_sansregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'dm_sansmedium';
+  src: url("../fonts/Dm_sans_medium/dmsans-medium-webfont.eot");
+  src: url("../fonts/Dm_sans_medium/dmsans-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Dm_sans_medium/dmsans-medium-webfont.woff2") format("woff2"), url("../fonts/Dm_sans_medium/dmsans-medium-webfont.woff") format("woff"), url("../fonts/Dm_sans_medium/dmsans-medium-webfont.ttf") format("truetype"), url("../fonts/Dm_sans_medium/dmsans-medium-webfont.svg#dm_sansmedium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'dm_sansbold';
+  src: url("../fonts/Dm_sans_bold/dmsans-bold-webfont.eot");
+  src: url("../fonts/Dm_sans_bold/dmsans-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Dm_sans_bold/dmsans-bold-webfont.woff2") format("woff2"), url("../fonts/Dm_sans_bold/dmsans-bold-webfont.woff") format("woff"), url("../fonts/Dm_sans_bold/dmsans-bold-webfont.ttf") format("truetype"), url("../fonts/Dm_sans_bold/dmsans-bold-webfont.svg#dm_sansbold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+body * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  height: 1084px;
+  background-image: url("../images/bagraund fonts.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+header .container {
+  max-width: 1440px;
+  padding: 40px 80px 0; }
+  @media screen and (max-width: 1200px) {
+    header .container {
+      max-width: 1200px; } }
+  @media screen and (max-width: 992px) {
+    header .container {
+      max-width: 992px; } }
+  @media screen and (max-width: 768px) {
+    header .container {
+      max-width: 768px; } }
+  header .container .row {
+    justify-content: space-between;
+    margin-bottom: 92px; }
+    @media screen and (max-width: 768px) {
+      header .container .row {
+        position: relative; } }
+    header .container .row p {
+      font-family: 'gilroybold';
+      font-weight: 400;
+      font-size: 28px;
+      color: #fff; }
+    header .container .row .menu {
+      display: flex;
+      justify-content: space-around;
+      padding-top: 9px;
+      padding-left: 0;
+      list-style-type: none; }
+      header .container .row .menu li .menu_arrow {
+        position: relative; }
+        header .container .row .menu li .menu_arrow:after {
+          position: absolute;
+          content: url("../images/arrow_botom.svg");
+          top: 2px;
+          padding-left: 8px; }
+      header .container .row .menu li a {
+        font-family: gilroymedium;
+        font-weight: 400;
+        font-size: 18px;
+        color: #fff;
+        text-decoration: none; }
+    header .container .row .right_Bag {
+      display: flex;
+      justify-content: flex-end;
+      padding-right: 5px; }
+      @media screen and (max-width: 768px) {
+        header .container .row .right_Bag {
+          position: absolute;
+          top: 0;
+          right: 10px; } }
+      header .container .row .right_Bag .Bag {
+        position: relative; }
+        header .container .row .right_Bag .Bag span {
+          position: absolute;
+          text-decoration: none;
+          font-weight: 500;
+          font-family: gilroymedium;
+          font-size: 14px;
+          color: #fff;
+          padding: 0 2px 2px 1px;
+          background: #e58411;
+          border-radius: 25px;
+          top: 1px;
+          left: 20px; }
+
+main .container {
+  max-width: 1440px;
+  padding: 0 80px 245px; }
+  @media screen and (max-width: 1200px) {
+    main .container {
+      max-width: 1200px; } }
+  @media screen and (max-width: 992px) {
+    main .container {
+      max-width: 992px; } }
+  @media screen and (max-width: 768px) {
+    main .container {
+      max-width: 768px; } }
+  main .container h1 {
+    font-family: gilroybold;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 130%;
+    letter-spacing: -0.01em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 14px; }
+    @media screen and (max-width: 768px) {
+      main .container h1 {
+        font-size: 50px; } }
+    @media screen and (max-width: 402px) {
+      main .container h1 {
+        font-size: 35px; } }
+  main .container h3 {
+    font-family: gilroyregular;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 160%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 745px; }
+    @media screen and (max-width: 768px) {
+      main .container h3 {
+        font-size: 18px; } }
+    @media screen and (max-width: 402px) {
+      main .container h3 {
+        font-size: 14px; } }
+main .main_info .row {
+  justify-content: space-between;
+  margin-bottom: 170px; }
+  main .main_info .row h2 {
+    font-family: gilroybold;
+    font-weight: 400;
+    font-size: 42px;
+    color: #1e1e1e;
+    margin-top: 20px;
+    margin-bottom: 170px; }
+  main .main_info .row h3 {
+    font-family: gilroybold;
+    font-weight: 400;
+    font-size: 24px;
+    color: #1e1e1e;
+    margin-bottom: 20px; }
+  main .main_info .row p {
+    font-family: gilroyregular;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 185%;
+    color: #1e1e1e;
+    margin-bottom: 14px; }
+  main .main_info .row a {
+    font-family: gilroymedium;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 185%;
+    color: #e58411;
+    text-decoration: none; }
+    main .main_info .row a:after {
+      content: "";
+      display: inline-block;
+      width: 48px;
+      height: 18px;
+      background-image: url("../images/arrow_orange.svg");
+      margin-left: 13px; }
+    main .main_info .row a:hover {
+      color: red; }
+    main .main_info .row a:hover:after {
+      content: "";
+      background-image: url("../images/arrow_red.svg"); }
+main .Best_Selling {
+  font-family: gilroybold;
+  font-weight: 400;
+  font-size: 42px;
+  color: #1e1e1e;
+  text-align: center;
+  margin-bottom: 32px; }
+main .product {
+  justify-content: space-between;
+  margin-bottom: 86px; }
+  main .product ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 24px;
+    background-color: #eee;
+    border-radius: 28px;
+    height: 56px;
+    max-width: 348px;
+    margin: auto; }
+    main .product ul li {
+      list-style-type: none; }
+      main .product ul li a {
+        font-family: gilroyregular;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 185%;
+        color: #1e1e1e;
+        text-decoration: none;
+        padding: 12px; }
+        main .product ul li a:hover {
+          background-color: #fff;
+          border-radius: 22px;
+          width: 85px;
+          height: 44px; }
+main .main_product .row div {
+  padding: 21px;
+  margin: auto;
+  flex-direction: column; }
+  @media screen and (max-width: 992px) {
+    main .main_product .row div {
+      padding: 21px 60px; } }
+  @media screen and (max-width: 768px) {
+    main .main_product .row div {
+      padding: 21px 33px; } }
+  main .main_product .row div .chair {
+    width: 218px;
+    height: 256px;
+    margin-bottom: 47px; }
+    @media screen and (max-width: 1200px) {
+      main .main_product .row div .chair {
+        width: 180px;
+        height: 240px; } }
+  main .main_product .row div p {
+    font-family: gilroyregular;
+    font-weight: 400;
+    font-size: 16px;
+    color: #8d8d8d;
+    margin-bottom: 6px; }
+  main .main_product .row div .chair_name {
+    font-family: gilroymedium;
+    font-weight: 600;
+    font-size: 21px;
+    text-transform: capitalize;
+    color: #0d1b39;
+    margin-bottom: 6px;
+    text-decoration: none;
+    display: block; }
+  main .main_product .row div .starts {
+    margin-bottom: 37px; }
+  main .main_product .row div h5 {
+    font-family: interregular;
+    font-weight: 600;
+    font-size: 21px;
+    color: #0d1b39;
+    position: relative;
+    margin-left: 18px; }
+    main .main_product .row div h5:before {
+      position: absolute;
+      content: url("../images/$.svg");
+      top: -5px;
+      left: -15px; }
+main .View_All {
+  text-align: center;
+  padding-bottom: 356px; }
+  main .View_All a {
+    font-family: gilroymedium;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 185%;
+    color: #e58411;
+    text-decoration: none; }
+    main .View_All a:after {
+      content: "";
+      display: inline-block;
+      width: 48px;
+      height: 18px;
+      background-image: url("../images/arrow_orange.svg");
+      margin-left: 13px; }
+    main .View_All a:hover {
+      font-family: gilroybold;
+      color: red; }
+    main .View_All a:hover:after {
+      content: "";
+      background-image: url("../images/arrow_red.svg"); }
+main .experiences {
+  margin-bottom: 270px; }
+  main .experiences .row img {
+    margin-left: -125px;
+    width: 500px; }
+  main .experiences .row h4 {
+    font-family: gilroysemibold;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+    color: #e58411;
+    margin-bottom: 20px; }
+  main .experiences .row h3 {
+    font-family: gilroybold;
+    font-weight: 400;
+    font-size: 42px;
+    text-transform: capitalize;
+    color: #1e1e1e;
+    text-align: left;
+    margin-bottom: 20px; }
+  main .experiences .row p {
+    font-family: gilroyregular;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 185%;
+    color: #1e1e1e;
+    margin-bottom: 20px; }
+  main .experiences .row a {
+    font-family: gilroymedium;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 185%;
+    color: #e58411;
+    text-decoration: none; }
+    main .experiences .row a:after {
+      content: "";
+      display: inline-block;
+      width: 48px;
+      height: 18px;
+      background-image: url("../images/arrow_orange.svg");
+      margin-left: 13px; }
+    main .experiences .row a:hover {
+      color: red; }
+    main .experiences .row a:hover:after {
+      content: "";
+      background-image: url("../images/arrow_red.svg"); }
+main .Materials .row {
+  margin-bottom: 240px; }
+  main .Materials .row h4 {
+    font-family: gilroysemibold;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+    color: #e58411;
+    margin-top: 124px;
+    margin-bottom: 20px; }
+    @media screen and (max-width: 1200px) {
+      main .Materials .row h4 {
+        margin-top: 50px; } }
+  main .Materials .row h3 {
+    font-family: gilroybold;
+    font-weight: 400;
+    font-size: 42px;
+    text-transform: capitalize;
+    color: #1e1e1e;
+    text-align: left;
+    margin-right: 100px;
+    margin-bottom: 20px; }
+  main .Materials .row p {
+    font-family: gilroyregular;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 185%;
+    color: #1e1e1e;
+    margin-bottom: 20px; }
+  main .Materials .row a {
+    font-family: gilroymedium;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 185%;
+    color: #e58411;
+    text-decoration: none; }
+    main .Materials .row a:after {
+      content: "";
+      display: inline-block;
+      width: 48px;
+      height: 18px;
+      background-image: url("../images/arrow_orange.svg");
+      margin-left: 13px; }
+    main .Materials .row a:hover {
+      color: red; }
+    main .Materials .row a:hover:after {
+      content: "";
+      background-image: url("../images/arrow_red.svg"); }
+  main .Materials .row img {
+    width: 250px; }
+  main .Materials .row .kitchen {
+    width: 625px;
+    height: 445px;
+    margin: 100px 100px 270px 80px; }
+    @media screen and (max-width: 768px) {
+      main .Materials .row .kitchen {
+        margin-top: 20px; } }
+main .Testimonials h4 {
+  font-family: gilroysemibold;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #e58411;
+  margin-bottom: 20px; }
+main .Testimonials h3 {
+  font-family: gilroybold;
+  font-weight: 400;
+  font-size: 42px;
+  text-transform: capitalize;
+  text-align: center;
+  color: #1e1e1e;
+  margin-bottom: 20px; }
+main .Client_Reviews {
+  margin-bottom: 245px; }
+  main .Client_Reviews .row .Bang_Upin {
+    align-content: flex-end;
+    padding: 18px;
+    background-image: url("../images/Bang_Upin_bagraund.jpg");
+    background-position: center;
+    background-size: cover; }
+  main .Client_Reviews .row .Ibuk_Sukijan {
+    align-content: flex-end;
+    padding: 18px;
+    background-image: url("../images/Ibuk_Sukijan_bagraund.jpg");
+    width: 100%;
+    background-position: center;
+    background-size: cover; }
+  main .Client_Reviews .row .Mpok_Ina {
+    align-content: flex-end;
+    padding: 18px;
+    background-image: url("../images/Mpok_Ina_bagraund.jpg");
+    background-position: center;
+    background-size: cover; }
+  main .Client_Reviews .row div {
+    height: 206px;
+    background: rgba(255, 255, 255, 0.84);
+    border-radius: 18px;
+    text-align: center;
+    padding-top: 38px;
+    position: relative; }
+    @media screen and (max-width: 992px) {
+      main .Client_Reviews .row div {
+        height: 250px; } }
+    main .Client_Reviews .row div h4 {
+      font-family: gilroybold;
+      font-weight: 400;
+      font-size: 18px;
+      text-transform: capitalize;
+      text-align: center;
+      color: #1e1e1e;
+      margin-bottom: 6px; }
+    main .Client_Reviews .row div h6 {
+      font-family: gilroyregular;
+      font-weight: 400;
+      font-size: 12px;
+      text-align: center;
+      color: #1e1e1e;
+      opacity: 0.6;
+      margin-bottom: 15px; }
+    main .Client_Reviews .row div p {
+      font-family: gilroyregular;
+      font-weight: 400;
+      font-size: 14px;
+      text-align: center;
+      color: #1e1e1e;
+      opacity: 0.8;
+      margin-right: 30px;
+      margin-left: 30px; }
+    main .Client_Reviews .row div .Client_foto {
+      position: absolute;
+      width: 55px;
+      height: 55px;
+      border-radius: 27.5px;
+      border: solid 8px rgba(255, 255, 255, 0.84);
+      top: -25px;
+      left: 125px; }
+
+footer .container {
+  max-width: 1440px;
+  padding: 0 80px 118px; }
+footer .footer_info {
+  margin-bottom: 118px; }
+  footer .footer_info .row h3 {
+    font-family: gilroybold;
+    font-weight: 400;
+    font-size: 28px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #1e1e1e;
+    margin-bottom: 29px; }
+  footer .footer_info .row p {
+    font-family: gilroymedium;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #1e1e1e;
+    padding-right: 100px; }
+  footer .footer_info .row h4 {
+    font-family: gilroymedium;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: -0.01em;
+    color: #f6973f;
+    margin-bottom: 20px; }
+  footer .footer_info .row h6 {
+    font-family: gilroymedium;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #1e1e1e;
+    opacity: 0.8;
+    margin-bottom: 20px; }
+  footer .footer_info .row a {
+    display: flex;
+    text-decoration: none;
+    font-family: gilroymedium;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #1e1e1e;
+    opacity: 0.8;
+    margin-bottom: 20px; }
+  footer .footer_info .row img {
+    margin-right: 5px; }
+footer .footer_minimalistic h6 {
+  font-family: gilroymedium;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: -0.01em;
+  color: #1e2833;
+  opacity: 0.5; }
+footer .footer_minimalistic p {
+  font-family: gilroymedium;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  color: #1e1e1e;
+  opacity: 0.8; }
+
+/*# sourceMappingURL=style_preproc.css.map */
